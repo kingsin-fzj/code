@@ -1,0 +1,700 @@
+(00.000220) Pagemap is fully functional
+(00.000257) Found task size of 7ffffffff000
+(00.000480) Found fd 0 (id pipe:[17918]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.000520) Inherit fd 0 moved to 8 to resolve clash
+(00.000547) Found fd 1 (id pipe:[17919]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.000557) Inherit fd 1 moved to 5 to resolve clash
+(00.000561) Found fd 2 (id pipe:[17920]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.000564) Inherit fd 2 moved to 7 to resolve clash
+(00.003019) Found mmap_min_addr 0x10000
+(00.003215) cpu: fpu:1 fxsr:1 xsave:1
+(00.003337) vdso: Parsing at 7ffdbcbbf000 7ffdbcbc1000
+(00.003344) vdso: PT_LOAD p_vaddr: 0
+(00.003347) vdso: DT_HASH: 120
+(00.003350) vdso: DT_STRTAB: 2b0
+(00.003352) vdso: DT_SYMTAB: 1a8
+(00.003354) vdso: DT_STRSZ: 5e
+(00.003356) vdso: DT_SYMENT: 18
+(00.003358) vdso: nbucket 3 nchain b bucket 7ffdbcbbf128 chain 7ffdbcbbf134
+(00.003363) vdso: rt [vdso] 7ffdbcbbf000-7ffdbcbc1000 [vvar] 7ffdbcbbd000-7ffdbcbbf000
+(00.003414) kernel pid_max=32768
+(00.003419) Reading image tree
+(00.003463) Add mnt ns 12 pid 1
+(00.003469) pstree pid_max=1
+(00.003477) Will restore in 7c020000 namespaces
+(00.003479) NS mask to use 7c020000
+(00.003482) Collecting 39/18 (flags 1)
+(00.003499) Collected [usr/bin/bash] ID 0x1
+(00.003506) Collected [usr/lib64/libnss_files-2.17.so] ID 0x2
+(00.003511) Collected [usr/lib64/libc-2.17.so] ID 0x3
+(00.003515) Collected [usr/lib64/libdl-2.17.so] ID 0x4
+(00.003518) Collected [usr/lib64/libtinfo.so.5.9] ID 0x5
+(00.003522) Collected [usr/lib64/ld-2.17.so] ID 0x6
+(00.003678) Collected [.] ID 0xa
+(00.003692)  `- ... done
+(00.003695) Collecting 53/57 (flags 0)
+(00.003702) No remap-fpath.img image
+(00.003705)  `- ... done
+(00.003708) Collecting 42/21 (flags 0)
+(00.003712) No inetsk.img image
+(00.003715)  `- ... done
+(00.003790) cg: rewriting pbxcore to /pbxcore
+(00.003802) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003808) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003812) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003817) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003820) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003824) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003828) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003832) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003835) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003839) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003843) cg: rewriting pbxcore to /pbxcore
+(00.003847) cg: rewriting user/0.user/c1.session/pbxcore to /user/0.user/1.session/pbxcore
+(00.003853) cg: Preparing cgroups yard (cgroups restore mode 0x4)
+(00.005090) cg: Opening .criu.cgyard.lraleB as cg yard
+(00.005117) cg: 	Making controller dir .criu.cgyard.lraleB/pids (pids)
+(00.005975) cg: Determined cgroup dir pids//pbxcore already exist
+(00.005985) cg: Skip restoring properties on cgroup dir pids//pbxcore
+(00.006002) cg: 	Making controller dir .criu.cgyard.lraleB/hugetlb (hugetlb)
+(00.006925) cg: Determined cgroup dir hugetlb//user/0.user/1.session/pbxcore already exist
+(00.006934) cg: Skip restoring properties on cgroup dir hugetlb//user/0.user/1.session/pbxcore
+(00.006950) cg: 	Making controller dir .criu.cgyard.lraleB/net_prio (net_prio)
+(00.008151) cg: Determined cgroup dir net_prio//user/0.user/1.session/pbxcore already exist
+(00.008166) cg: Skip restoring properties on cgroup dir net_prio//user/0.user/1.session/pbxcore
+(00.008184) cg: 	Making controller dir .criu.cgyard.lraleB/perf_event (perf_event)
+(00.009096) cg: Determined cgroup dir perf_event//user/0.user/1.session/pbxcore already exist
+(00.009106) cg: Skip restoring properties on cgroup dir perf_event//user/0.user/1.session/pbxcore
+(00.009121) cg: 	Making controller dir .criu.cgyard.lraleB/net_cls (net_cls)
+(00.009986) cg: Determined cgroup dir net_cls//user/0.user/1.session/pbxcore already exist
+(00.009995) cg: Skip restoring properties on cgroup dir net_cls//user/0.user/1.session/pbxcore
+(00.010011) cg: 	Making controller dir .criu.cgyard.lraleB/freezer (freezer)
+(00.010096) cg: Determined cgroup dir freezer//user/0.user/1.session/pbxcore already exist
+(00.010103) cg: Skip restoring properties on cgroup dir freezer//user/0.user/1.session/pbxcore
+(00.010116) cg: 	Making controller dir .criu.cgyard.lraleB/devices (devices)
+(00.010143) cg: Determined cgroup dir devices//user/0.user/1.session/pbxcore already exist
+(00.010147) cg: Skip restoring properties on cgroup dir devices//user/0.user/1.session/pbxcore
+(00.010158) cg: 	Making controller dir .criu.cgyard.lraleB/memory (memory)
+(00.010182) cg: Determined cgroup dir memory//user/0.user/1.session/pbxcore already exist
+(00.010186) cg: Skip restoring properties on cgroup dir memory//user/0.user/1.session/pbxcore
+(00.010196) cg: 	Making controller dir .criu.cgyard.lraleB/blkio (blkio)
+(00.010220) cg: Determined cgroup dir blkio//user/0.user/1.session/pbxcore already exist
+(00.010224) cg: Skip restoring properties on cgroup dir blkio//user/0.user/1.session/pbxcore
+(00.010234) cg: 	Making controller dir .criu.cgyard.lraleB/cpuacct (cpuacct)
+(00.010257) cg: Determined cgroup dir cpuacct//user/0.user/1.session/pbxcore already exist
+(00.010261) cg: Skip restoring properties on cgroup dir cpuacct//user/0.user/1.session/pbxcore
+(00.010270) cg: 	Making controller dir .criu.cgyard.lraleB/cpu (cpu)
+(00.010293) cg: Determined cgroup dir cpu//user/0.user/1.session/pbxcore already exist
+(00.010297) cg: Skip restoring properties on cgroup dir cpu//user/0.user/1.session/pbxcore
+(00.010306) cg: 	Making controller dir .criu.cgyard.lraleB/cpuset (cpuset)
+(00.010327) cg: Determined cgroup dir cpuset//pbxcore already exist
+(00.010331) cg: Skip restoring properties on cgroup dir cpuset//pbxcore
+(00.010347) cg: 	Making controller dir .criu.cgyard.lraleB/systemd (none,name=systemd)
+(00.010371) cg: Determined cgroup dir systemd//user/0.user/1.session/pbxcore already exist
+(00.010375) cg: Skip restoring properties on cgroup dir systemd//user/0.user/1.session/pbxcore
+(00.010390) Running pre-restore scripts
+(00.010394) 	RPC
+(00.015751) Saved netns fd for links restore
+(00.015811) mnt: Reading mountpoint images (id 12 pid 1)
+(00.015838) mnt: 		Will mount 112 from /dev/random (E)
+(00.015845) mnt: 		Will mount 112 @ ./dev/random
+(00.015849) mnt: 	Read 112 mp @ ./dev/random
+(00.015858) mnt: 		Will mount 111 from /dev/urandom (E)
+(00.015863) mnt: 		Will mount 111 @ ./dev/urandom
+(00.015865) mnt: 	Read 111 mp @ ./dev/urandom
+(00.015875) mnt: 		Will mount 110 from /dev/full (E)
+(00.015880) mnt: 		Will mount 110 @ ./dev/full
+(00.015882) mnt: 	Read 110 mp @ ./dev/full
+(00.015891) mnt: 		Will mount 109 from /dev/zero (E)
+(00.015895) mnt: 		Will mount 109 @ ./dev/zero
+(00.015898) mnt: 	Read 109 mp @ ./dev/zero
+(00.015902) mnt: 		Will mount 108 from /dev/null (E)
+(00.015905) mnt: 		Will mount 108 @ ./dev/null
+(00.015908) mnt: 	Read 108 mp @ ./dev/null
+(00.015916) mnt: 		Will mount 107 from /dev/urandom (E)
+(00.015920) mnt: 		Will mount 107 @ ./dev/urandom
+(00.015923) mnt: 	Read 107 mp @ ./dev/urandom
+(00.015928) mnt: 		Will mount 106 from /dev/zero (E)
+(00.015931) mnt: 		Will mount 106 @ ./dev/zero
+(00.015933) mnt: 	Read 106 mp @ ./dev/zero
+(00.015938) mnt: 		Will mount 105 from /dev/tty (E)
+(00.015940) mnt: 		Will mount 105 @ ./dev/tty
+(00.015943) mnt: 	Read 105 mp @ ./dev/tty
+(00.015947) mnt: 		Will mount 104 from /dev/full (E)
+(00.015950) mnt: 		Will mount 104 @ ./dev/full
+(00.015952) mnt: 	Read 104 mp @ ./dev/full
+(00.015956) mnt: 		Will mount 103 from /dev/random (E)
+(00.015959) mnt: 		Will mount 103 @ ./dev/random
+(00.015962) mnt: 	Read 103 mp @ ./dev/random
+(00.015969) mnt: 		Will mount 102 from /dev/null (E)
+(00.015973) mnt: 		Will mount 102 @ ./dev/null
+(00.015975) mnt: 	Read 102 mp @ ./dev/null
+(00.015980) mnt: 		Will mount 101 from /etc/resolv.conf (E)
+(00.015983) mnt: 		Will mount 101 @ ./etc/resolv.conf
+(00.015994) mnt: 	Read 101 mp @ ./etc/resolv.conf
+(00.016000) mnt: 		Will mount 100 from /etc/hosts (E)
+(00.016003) mnt: 		Will mount 100 @ ./etc/hosts
+(00.016005) mnt: 	Read 100 mp @ ./etc/hosts
+(00.016010) mnt: 		Will mount 99 from /sys/fs/cgroup/systemd/user/0.user/1.session (E)
+(00.016013) mnt: 		Will mount 99 @ ./sys/fs/cgroup/systemd
+(00.016016) mnt: 	Read 99 mp @ ./sys/fs/cgroup/systemd
+(00.016020) mnt: 		Will mount 98 from /sys/fs/cgroup/pids (E)
+(00.016023) mnt: 		Will mount 98 @ ./sys/fs/cgroup/pids
+(00.016025) mnt: 	Read 98 mp @ ./sys/fs/cgroup/pids
+(00.016030) mnt: 		Will mount 97 from /sys/fs/cgroup/hugetlb/user/0.user/1.session (E)
+(00.016093) mnt: 		Will mount 97 @ ./sys/fs/cgroup/hugetlb
+(00.016096) mnt: 	Read 97 mp @ ./sys/fs/cgroup/hugetlb
+(00.016105) mnt: 		Will mount 96 from /sys/fs/cgroup/net_prio/user/0.user/1.session (E)
+(00.016109) mnt: 		Will mount 96 @ ./sys/fs/cgroup/net_prio
+(00.016112) mnt: 	Read 96 mp @ ./sys/fs/cgroup/net_prio
+(00.016116) mnt: 		Will mount 95 from /sys/fs/cgroup/perf_event/user/0.user/1.session (E)
+(00.016119) mnt: 		Will mount 95 @ ./sys/fs/cgroup/perf_event
+(00.016122) mnt: 	Read 95 mp @ ./sys/fs/cgroup/perf_event
+(00.016126) mnt: 		Will mount 94 from /sys/fs/cgroup/net_cls/user/0.user/1.session (E)
+(00.016129) mnt: 		Will mount 94 @ ./sys/fs/cgroup/net_cls
+(00.016131) mnt: 	Read 94 mp @ ./sys/fs/cgroup/net_cls
+(00.016136) mnt: 		Will mount 93 from /sys/fs/cgroup/freezer/user/0.user/1.session (E)
+(00.016139) mnt: 		Will mount 93 @ ./sys/fs/cgroup/freezer
+(00.016141) mnt: 	Read 93 mp @ ./sys/fs/cgroup/freezer
+(00.016145) mnt: 		Will mount 92 from /sys/fs/cgroup/devices/user/0.user/1.session (E)
+(00.016148) mnt: 		Will mount 92 @ ./sys/fs/cgroup/devices
+(00.016150) mnt: 	Read 92 mp @ ./sys/fs/cgroup/devices
+(00.016157) mnt: 		Will mount 91 from /sys/fs/cgroup/memory/user/0.user/1.session (E)
+(00.016161) mnt: 		Will mount 91 @ ./sys/fs/cgroup/memory
+(00.016164) mnt: 	Read 91 mp @ ./sys/fs/cgroup/memory
+(00.016168) mnt: 		Will mount 90 from /sys/fs/cgroup/blkio/user/0.user/1.session (E)
+(00.016172) mnt: 		Will mount 90 @ ./sys/fs/cgroup/blkio
+(00.016174) mnt: 	Read 90 mp @ ./sys/fs/cgroup/blkio
+(00.016178) mnt: 		Will mount 89 from /sys/fs/cgroup/cpuacct/user/0.user/1.session (E)
+(00.016181) mnt: 		Will mount 89 @ ./sys/fs/cgroup/cpuacct
+(00.016183) mnt: 	Read 89 mp @ ./sys/fs/cgroup/cpuacct
+(00.016188) mnt: 		Will mount 88 from /sys/fs/cgroup/cpu/user/0.user/1.session (E)
+(00.016191) mnt: 		Will mount 88 @ ./sys/fs/cgroup/cpu
+(00.016193) mnt: 	Read 88 mp @ ./sys/fs/cgroup/cpu
+(00.016198) mnt: 		Will mount 87 from /sys/fs/cgroup/cpuset (E)
+(00.016201) mnt: 		Will mount 87 @ ./sys/fs/cgroup/cpuset
+(00.016203) mnt: 	Read 87 mp @ ./sys/fs/cgroup/cpuset
+(00.016207) mnt: 		Will mount 86 from /
+(00.016210) mnt: 		Will mount 86 @ ./sys/fs/cgroup
+(00.016212) mnt: 	Read 86 mp @ ./sys/fs/cgroup
+(00.016218) mnt: 		Will mount 85 from /
+(00.016222) mnt: 		Will mount 85 @ ./sys
+(00.016225) mnt: 	Read 85 mp @ ./sys
+(00.016228) mnt: 		Will mount 84 from /
+(00.016231) mnt: 		Will mount 84 @ ./dev/shm
+(00.016234) mnt: 	Read 84 mp @ ./dev/shm
+(00.016237) mnt: 		Will mount 83 from /
+(00.016240) mnt: 		Will mount 83 @ ./dev/pts
+(00.016243) mnt: 	Read 83 mp @ ./dev/pts
+(00.016246) mnt: 		Will mount 82 from /
+(00.016249) mnt: 		Will mount 82 @ ./dev
+(00.016251) mnt: 	Read 82 mp @ ./dev
+(00.016255) mnt: 		Will mount 81 from /
+(00.016257) mnt: 		Will mount 81 @ ./proc
+(00.016260) mnt: 	Read 81 mp @ ./proc
+(00.016264) mnt: 		Will mount 80 from /home/pbxcore/rootfs
+(00.016266) mnt: 		Will mount 80 @ ./
+(00.016269) mnt: 	Read 80 mp @ ./
+(00.016316) Warn  (criu/cr-restore.c:843): Set CLONE_PARENT | CLONE_NEWPID but it might cause restore problem,because not all kernels support such clone flags combinations!
+(00.016322) Forking task with 1 pid (flags 0x7c028000)
+(00.016485) PID: real 4414 virt 1
+(00.016662) Wait until namespaces are created
+(00.018841)      1: Found fd 0 (id pipe:[17918]) in inherit fd list (caller close_old_fds)
+(00.018863)      1: Found fd 1 (id pipe:[17919]) in inherit fd list (caller close_old_fds)
+(00.018877)      1: Found fd 2 (id pipe:[17920]) in inherit fd list (caller close_old_fds)
+(00.018927) Running setup-namespaces scripts
+(00.018934) 	RPC
+(00.019428) uns: Daemon started
+(00.200817) Found fd 0 (id pipe:[17918]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.200950) Inherit fd 0 moved to 11 to resolve clash
+(00.200974) Found fd 1 (id pipe:[17919]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.200985) Inherit fd 1 moved to 7 to resolve clash
+(00.200995) Found fd 2 (id pipe:[17920]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.201003) Inherit fd 2 moved to 9 to resolve clash
+(00.205530) Found fd 0 (id pipe:[17918]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.205708) Inherit fd 0 moved to 11 to resolve clash
+(00.205732) Found fd 1 (id pipe:[17919]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.205742) Inherit fd 1 moved to 7 to resolve clash
+(00.205752) Found fd 2 (id pipe:[17920]) in inherit fd list (caller inherit_fd_resolve_clash)
+(00.205760) Inherit fd 2 moved to 9 to resolve clash
+(00.209036)      1: cg: Move into 2
+(00.209173)      1: cg:   `-> blkio//user/0.user/1.session/pbxcore/tasks
+(00.209194)      1: uns: calling userns_move (-1, 0)
+(00.209297) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.209465)      1: cg:   `-> cpu//user/0.user/1.session/pbxcore/tasks
+(00.209481)      1: uns: calling userns_move (-1, 0)
+(00.209514) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.209690)      1: cg:   `-> cpuacct//user/0.user/1.session/pbxcore/tasks
+(00.209708)      1: uns: calling userns_move (-1, 0)
+(00.209740) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.209832)      1: cg:   `-> cpuset//pbxcore/tasks
+(00.209846)      1: uns: calling userns_move (-1, 0)
+(00.209875) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.209953)      1: cg:   `-> devices//user/0.user/1.session/pbxcore/tasks
+(00.209967)      1: uns: calling userns_move (-1, 0)
+(00.209996) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.210137)      1: cg:   `-> freezer//user/0.user/1.session/pbxcore/tasks
+(00.210155)      1: uns: calling userns_move (-1, 0)
+(00.210186) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.210274)      1: cg:   `-> hugetlb//user/0.user/1.session/pbxcore/tasks
+(00.210288)      1: uns: calling userns_move (-1, 0)
+(00.210315) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.210397)      1: cg:   `-> memory//user/0.user/1.session/pbxcore/tasks
+(00.210411)      1: uns: calling userns_move (-1, 0)
+(00.210439) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.210518)      1: cg:   `-> systemd//user/0.user/1.session/pbxcore/tasks
+(00.210531)      1: uns: calling userns_move (-1, 0)
+(00.210602) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.210708)      1: cg:   `-> net_cls//user/0.user/1.session/pbxcore/tasks
+(00.210722)      1: uns: calling userns_move (-1, 0)
+(00.210751) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.210832)      1: cg:   `-> net_prio//user/0.user/1.session/pbxcore/tasks
+(00.210846)      1: uns: calling userns_move (-1, 0)
+(00.210873) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.210951)      1: cg:   `-> perf_event//user/0.user/1.session/pbxcore/tasks
+(00.210965)      1: uns: calling userns_move (-1, 0)
+(00.210992) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.211128)      1: cg:   `-> pids//pbxcore/tasks
+(00.211147)      1: uns: calling userns_move (-1, 0)
+(00.211183) uns: daemon calls 0x42f0a0 (4414, -1, 0)
+(00.211262)      1: Calling restore_sid() for init
+(00.211278)      1: Restoring 1 to 1 sid
+(00.211426)      1: Mount procfs in crtools-proc.wCkJL4
+(00.211851)      1: Restoring namespaces 1 flags 0x7c028000
+(00.211943)      1: No netns-ct-9.img image
+(00.211963)      1: No netns-exp-9.img image
+(00.212121)      1: uns: calling __userns_sysctl_op (5, 0)
+(00.212192) uns: daemon calls 0x480f60 (4414, 6, 0)
+(00.212818) kernel/hostname nr 7
+(00.212966) kernel/domainname nr 6
+(00.213556)      1: Restoring IPC namespace
+(00.213633)      1: Restoring IPC variables
+(00.213744)      1: uns: calling __userns_sysctl_op (3, 0)
+(00.213832) uns: daemon calls 0x480f60 (4414, 6, 0)
+(00.214819)      1: Restoring IPC shared memory
+(00.214844)      1: No ipcns-shm-10.img image
+(00.214851)      1: Restoring IPC message queues
+(00.214860)      1: No ipcns-msg-10.img image
+(00.214865)      1: Restoring IPC semaphores sets
+(00.214874)      1: No ipcns-sem-10.img image
+(00.214881)      1: mnt: Restoring mount namespace
+(00.215050)      1: 	type ext4 source /dev/dm-0 mnt_id 64 s_dev 0xfc00000 / @ ./ flags 0x200000 options errors=remount-ro,data=ordered
+(00.215122)      1: 	type devtmpfs source udev mnt_id 65 s_dev 0x6 / @ ./dev flags 0x200000 options size=127224k,nr_inodes=31806,mode=755
+(00.215147)      1: 	type devpts source devpts mnt_id 66 s_dev 0xe / @ ./dev/pts flags 0x20000a options gid=-1,mode=620,ptmxmode=000
+(00.215192)      1: 	type tmpfs source tmpfs mnt_id 67 s_dev 0x12 / @ ./run flags 0x20000a options size=28536k,mode=755
+(00.215214)      1: 	type tmpfs source none mnt_id 68 s_dev 0x16 / @ ./run/lock flags 0x20000e options size=5120k
+(00.215230)      1: 	type tmpfs source none mnt_id 69 s_dev 0x18 / @ ./run/shm flags 0x200006 options 
+(00.215247)      1: 	type tmpfs source none mnt_id 70 s_dev 0x1a / @ ./run/user flags 0x20000e options size=102400k,mode=755
+(00.215266)      1: 	type ext4 source /dev/dm-0 mnt_id 71 s_dev 0xfc00000 /home/pbxcore/rootfs @ ./run/runc/pbxcore/criu-root flags 0x200000 options errors=remount-ro,data=ordered
+(00.215282)      1: 	type sysfs source sysfs mnt_id 72 s_dev 0x11 / @ ./sys flags 0x20000e options 
+(00.215304)      1: 	type tmpfs source none mnt_id 73 s_dev 0x13 / @ ./sys/fs/cgroup flags 0x200000 options size=4k,mode=755
+(00.215322)      1: 	type cgroup source cgroup mnt_id 74 s_dev 0x15 / @ ./sys/fs/cgroup/cpuset flags 0x200000 options cpuset
+(00.215338)      1: 	type cgroup source cgroup mnt_id 75 s_dev 0x17 / @ ./sys/fs/cgroup/cpu flags 0x200000 options cpu
+(00.215415)      1: 	type cgroup source cgroup mnt_id 76 s_dev 0x19 / @ ./sys/fs/cgroup/cpuacct flags 0x200000 options cpuacct
+(00.215432)      1: 	type cgroup source cgroup mnt_id 77 s_dev 0x1b / @ ./sys/fs/cgroup/blkio flags 0x200000 options blkio
+(00.215447)      1: 	type cgroup source cgroup mnt_id 78 s_dev 0x1d / @ ./sys/fs/cgroup/memory flags 0x200000 options memory
+(00.215461)      1: 	type cgroup source cgroup mnt_id 79 s_dev 0x1e / @ ./sys/fs/cgroup/devices flags 0x200000 options devices
+(00.215482)      1: 	type cgroup source cgroup mnt_id 80 s_dev 0x1f / @ ./sys/fs/cgroup/freezer flags 0x200000 options freezer
+(00.215498)      1: 	type cgroup source cgroup mnt_id 81 s_dev 0x20 / @ ./sys/fs/cgroup/net_cls flags 0x200000 options net_cls
+(00.215513)      1: 	type cgroup source cgroup mnt_id 82 s_dev 0x21 / @ ./sys/fs/cgroup/perf_event flags 0x200000 options perf_event
+(00.215528)      1: 	type cgroup source cgroup mnt_id 83 s_dev 0x22 / @ ./sys/fs/cgroup/net_prio flags 0x200000 options net_prio
+(00.215543)      1: 	type cgroup source cgroup mnt_id 84 s_dev 0x23 / @ ./sys/fs/cgroup/hugetlb flags 0x200000 options hugetlb
+(00.215560)      1: 	type cgroup source cgroup mnt_id 85 s_dev 0x24 / @ ./sys/fs/cgroup/pids flags 0x200000 options pids
+(00.215706)      1: 	type cgroup source systemd mnt_id 86 s_dev 0x25 / @ ./sys/fs/cgroup/systemd flags 0x20000e options name=systemd
+(00.215722)      1: 	type fusectl source none mnt_id 87 s_dev 0x14 / @ ./sys/fs/fuse/connections flags 0x200000 options 
+(00.215744)      1: 	type debugfs source none mnt_id 88 s_dev 0x7 / @ ./sys/kernel/debug flags 0x200000 options 
+(00.215760)      1: 	type securityfs source none mnt_id 89 s_dev 0xc / @ ./sys/kernel/security flags 0x200000 options 
+(00.215828)      1: 	type pstore source none mnt_id 90 s_dev 0x1c / @ ./sys/fs/pstore flags 0x200000 options 
+(00.215845)      1: 	type proc source proc mnt_id 91 s_dev 0x4 / @ ./proc flags 0x20000e options 
+(00.215864)      1: 	type ext2 source /dev/sda1 mnt_id 92 s_dev 0x800001 / @ ./boot flags 0x200000 options block_validity,barrier,user_xattr,acl
+(00.215882)      1: 	type ext4 source /dev/dm-0 mnt_id 93 s_dev 0xfc00000 /var/lib/docker/aufs @ ./var/lib/docker/aufs flags 0x200000 options errors=remount-ro,data=ordered
+(00.215909)      1: 	type tmpfs source none mnt_id 94 s_dev 0x27 / @ ./home/pbxcore/.criu.cgyard.lraleB flags 0x200000 options 
+(00.215932)      1: 	type cgroup source none mnt_id 95 s_dev 0x24 / @ ./home/pbxcore/.criu.cgyard.lraleB/pids flags 0x200000 options pids
+(00.215948)      1: 	type cgroup source none mnt_id 96 s_dev 0x23 / @ ./home/pbxcore/.criu.cgyard.lraleB/hugetlb flags 0x200000 options hugetlb
+(00.215963)      1: 	type cgroup source none mnt_id 97 s_dev 0x22 / @ ./home/pbxcore/.criu.cgyard.lraleB/net_prio flags 0x200000 options net_prio
+(00.215978)      1: 	type cgroup source none mnt_id 98 s_dev 0x21 / @ ./home/pbxcore/.criu.cgyard.lraleB/perf_event flags 0x200000 options perf_event
+(00.215993)      1: 	type cgroup source none mnt_id 99 s_dev 0x20 / @ ./home/pbxcore/.criu.cgyard.lraleB/net_cls flags 0x200000 options net_cls
+(00.216009)      1: 	type cgroup source none mnt_id 100 s_dev 0x1f / @ ./home/pbxcore/.criu.cgyard.lraleB/freezer flags 0x200000 options freezer
+(00.216051)      1: 	type cgroup source none mnt_id 101 s_dev 0x1e / @ ./home/pbxcore/.criu.cgyard.lraleB/devices flags 0x200000 options devices
+(00.216118)      1: 	type cgroup source none mnt_id 102 s_dev 0x1d / @ ./home/pbxcore/.criu.cgyard.lraleB/memory flags 0x200000 options memory
+(00.216140)      1: 	type cgroup source none mnt_id 103 s_dev 0x1b / @ ./home/pbxcore/.criu.cgyard.lraleB/blkio flags 0x200000 options blkio
+(00.216155)      1: 	type cgroup source none mnt_id 104 s_dev 0x19 / @ ./home/pbxcore/.criu.cgyard.lraleB/cpuacct flags 0x200000 options cpuacct
+(00.216170)      1: 	type cgroup source none mnt_id 105 s_dev 0x17 / @ ./home/pbxcore/.criu.cgyard.lraleB/cpu flags 0x200000 options cpu
+(00.216184)      1: 	type cgroup source none mnt_id 106 s_dev 0x15 / @ ./home/pbxcore/.criu.cgyard.lraleB/cpuset flags 0x200000 options cpuset
+(00.216199)      1: 	type cgroup source none mnt_id 107 s_dev 0x25 / @ ./home/pbxcore/.criu.cgyard.lraleB/systemd flags 0x200000 options name=systemd
+(00.216230)      1: mnt: Building mountpoints tree
+(00.216239)      1: mnt: 	Building plain mount tree
+(00.216243)      1: mnt: 		Working on 107->94
+(00.216248)      1: mnt: 		Working on 106->94
+(00.216253)      1: mnt: 		Working on 105->94
+(00.216257)      1: mnt: 		Working on 104->94
+(00.216261)      1: mnt: 		Working on 103->94
+(00.216265)      1: mnt: 		Working on 102->94
+(00.216270)      1: mnt: 		Working on 101->94
+(00.216274)      1: mnt: 		Working on 100->94
+(00.216278)      1: mnt: 		Working on 99->94
+(00.216282)      1: mnt: 		Working on 98->94
+(00.216286)      1: mnt: 		Working on 97->94
+(00.216290)      1: mnt: 		Working on 96->94
+(00.216294)      1: mnt: 		Working on 95->94
+(00.216298)      1: mnt: 		Working on 94->64
+(00.216303)      1: mnt: 		Working on 93->64
+(00.216307)      1: mnt: 		Working on 92->64
+(00.216311)      1: mnt: 		Working on 91->64
+(00.216315)      1: mnt: 		Working on 90->72
+(00.216319)      1: mnt: 		Working on 89->72
+(00.216324)      1: mnt: 		Working on 88->72
+(00.216328)      1: mnt: 		Working on 87->72
+(00.216332)      1: mnt: 		Working on 86->73
+(00.216336)      1: mnt: 		Working on 85->73
+(00.216340)      1: mnt: 		Working on 84->73
+(00.216344)      1: mnt: 		Working on 83->73
+(00.216348)      1: mnt: 		Working on 82->73
+(00.216353)      1: mnt: 		Working on 81->73
+(00.216357)      1: mnt: 		Working on 80->73
+(00.216361)      1: mnt: 		Working on 79->73
+(00.216365)      1: mnt: 		Working on 78->73
+(00.216369)      1: mnt: 		Working on 77->73
+(00.216373)      1: mnt: 		Working on 76->73
+(00.216377)      1: mnt: 		Working on 75->73
+(00.216381)      1: mnt: 		Working on 74->73
+(00.216386)      1: mnt: 		Working on 73->72
+(00.216390)      1: mnt: 		Working on 72->64
+(00.216394)      1: mnt: 		Working on 71->67
+(00.216398)      1: mnt: 		Working on 70->67
+(00.216402)      1: mnt: 		Working on 69->67
+(00.216406)      1: mnt: 		Working on 68->67
+(00.216410)      1: mnt: 		Working on 67->64
+(00.216415)      1: mnt: 		Working on 66->65
+(00.216419)      1: mnt: 		Working on 65->64
+(00.216433)      1: mnt: 		Working on 64->63
+(00.216438)      1: mnt: 	Resorting siblings on 64
+(00.216443)      1: mnt: 	Resorting siblings on 94
+(00.216447)      1: mnt: 	Resorting siblings on 107
+(00.216452)      1: mnt: 	Resorting siblings on 106
+(00.216456)      1: mnt: 	Resorting siblings on 105
+(00.216460)      1: mnt: 	Resorting siblings on 104
+(00.216464)      1: mnt: 	Resorting siblings on 103
+(00.216468)      1: mnt: 	Resorting siblings on 102
+(00.216472)      1: mnt: 	Resorting siblings on 101
+(00.216476)      1: mnt: 	Resorting siblings on 100
+(00.216480)      1: mnt: 	Resorting siblings on 99
+(00.216484)      1: mnt: 	Resorting siblings on 98
+(00.216488)      1: mnt: 	Resorting siblings on 97
+(00.216492)      1: mnt: 	Resorting siblings on 96
+(00.216496)      1: mnt: 	Resorting siblings on 95
+(00.216500)      1: mnt: 	Resorting siblings on 93
+(00.216504)      1: mnt: 	Resorting siblings on 92
+(00.216508)      1: mnt: 	Resorting siblings on 91
+(00.216512)      1: mnt: 	Resorting siblings on 72
+(00.216516)      1: mnt: 	Resorting siblings on 90
+(00.216520)      1: mnt: 	Resorting siblings on 89
+(00.216524)      1: mnt: 	Resorting siblings on 88
+(00.216528)      1: mnt: 	Resorting siblings on 87
+(00.216532)      1: mnt: 	Resorting siblings on 73
+(00.216536)      1: mnt: 	Resorting siblings on 86
+(00.216540)      1: mnt: 	Resorting siblings on 85
+(00.216543)      1: mnt: 	Resorting siblings on 84
+(00.216547)      1: mnt: 	Resorting siblings on 83
+(00.216551)      1: mnt: 	Resorting siblings on 82
+(00.216557)      1: mnt: 	Resorting siblings on 81
+(00.216603)      1: mnt: 	Resorting siblings on 80
+(00.216617)      1: mnt: 	Resorting siblings on 79
+(00.216625)      1: mnt: 	Resorting siblings on 78
+(00.216634)      1: mnt: 	Resorting siblings on 77
+(00.216642)      1: mnt: 	Resorting siblings on 76
+(00.216652)      1: mnt: 	Resorting siblings on 75
+(00.216662)      1: mnt: 	Resorting siblings on 74
+(00.216671)      1: mnt: 	Resorting siblings on 67
+(00.216680)      1: mnt: 	Resorting siblings on 71
+(00.216688)      1: mnt: 	Resorting siblings on 70
+(00.216696)      1: mnt: 	Resorting siblings on 69
+(00.216705)      1: mnt: 	Resorting siblings on 68
+(00.216714)      1: mnt: 	Resorting siblings on 65
+(00.216723)      1: mnt: 	Resorting siblings on 66
+(00.216731)      1: mnt: Done:
+(00.216738)      1: mnt: [./](64->63)
+(00.216748)      1: mnt:  [./boot](92->64)
+(00.216756)      1: mnt:  <--
+(00.216764)      1: mnt:  [./dev](65->64)
+(00.216772)      1: mnt:   [./dev/pts](66->65)
+(00.216780)      1: mnt:   <--
+(00.216788)      1: mnt:  <--
+(00.216795)      1: mnt:  [./run](67->64)
+(00.216802)      1: mnt:   [./run/user](70->67)
+(00.216810)      1: mnt:   <--
+(00.216818)      1: mnt:   [./run/lock](68->67)
+(00.216826)      1: mnt:   <--
+(00.216832)      1: mnt:   [./run/shm](69->67)
+(00.216840)      1: mnt:   <--
+(00.216847)      1: mnt:   [./run/runc/pbxcore/criu-root](71->67)
+(00.216856)      1: mnt:   <--
+(00.216863)      1: mnt:  <--
+(00.216870)      1: mnt:  [./sys](72->64)
+(00.216877)      1: mnt:   [./sys/fs/pstore](90->72)
+(00.216885)      1: mnt:   <--
+(00.216892)      1: mnt:   [./sys/fs/cgroup](73->72)
+(00.216900)      1: mnt:    [./sys/fs/cgroup/systemd](86->73)
+(00.216908)      1: mnt:    <--
+(00.216916)      1: mnt:    [./sys/fs/cgroup/cpuset](74->73)
+(00.216925)      1: mnt:    <--
+(00.216934)      1: mnt:    [./sys/fs/cgroup/cpu](75->73)
+(00.216944)      1: mnt:    <--
+(00.216953)      1: mnt:    [./sys/fs/cgroup/cpuacct](76->73)
+(00.216962)      1: mnt:    <--
+(00.216971)      1: mnt:    [./sys/fs/cgroup/blkio](77->73)
+(00.216979)      1: mnt:    <--
+(00.216985)      1: mnt:    [./sys/fs/cgroup/memory](78->73)
+(00.216994)      1: mnt:    <--
+(00.217002)      1: mnt:    [./sys/fs/cgroup/devices](79->73)
+(00.217013)      1: mnt:    <--
+(00.217022)      1: mnt:    [./sys/fs/cgroup/freezer](80->73)
+(00.217031)      1: mnt:    <--
+(00.217040)      1: mnt:    [./sys/fs/cgroup/net_cls](81->73)
+(00.217050)      1: mnt:    <--
+(00.217126)      1: mnt:    [./sys/fs/cgroup/perf_event](82->73)
+(00.217159)      1: mnt:    <--
+(00.217170)      1: mnt:    [./sys/fs/cgroup/net_prio](83->73)
+(00.217180)      1: mnt:    <--
+(00.217190)      1: mnt:    [./sys/fs/cgroup/hugetlb](84->73)
+(00.217201)      1: mnt:    <--
+(00.217210)      1: mnt:    [./sys/fs/cgroup/pids](85->73)
+(00.217220)      1: mnt:    <--
+(00.217229)      1: mnt:   <--
+(00.217238)      1: mnt:   [./sys/fs/fuse/connections](87->72)
+(00.217243)      1: mnt:   <--
+(00.217247)      1: mnt:   [./sys/kernel/debug](88->72)
+(00.217252)      1: mnt:   <--
+(00.217256)      1: mnt:   [./sys/kernel/security](89->72)
+(00.217260)      1: mnt:   <--
+(00.217264)      1: mnt:  <--
+(00.217268)      1: mnt:  [./proc](91->64)
+(00.217272)      1: mnt:  <--
+(00.217276)      1: mnt:  [./home/pbxcore/.criu.cgyard.lraleB](94->64)
+(00.217281)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/systemd](107->94)
+(00.217285)      1: mnt:   <--
+(00.217289)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/pids](95->94)
+(00.217294)      1: mnt:   <--
+(00.217297)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/hugetlb](96->94)
+(00.217302)      1: mnt:   <--
+(00.217305)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/net_prio](97->94)
+(00.217310)      1: mnt:   <--
+(00.217313)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/perf_event](98->94)
+(00.217318)      1: mnt:   <--
+(00.217321)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/net_cls](99->94)
+(00.217326)      1: mnt:   <--
+(00.217330)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/freezer](100->94)
+(00.217334)      1: mnt:   <--
+(00.217338)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/devices](101->94)
+(00.217342)      1: mnt:   <--
+(00.217346)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/memory](102->94)
+(00.217350)      1: mnt:   <--
+(00.217354)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/blkio](103->94)
+(00.217358)      1: mnt:   <--
+(00.217362)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/cpuacct](104->94)
+(00.217367)      1: mnt:   <--
+(00.217370)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/cpu](105->94)
+(00.217375)      1: mnt:   <--
+(00.217379)      1: mnt:   [./home/pbxcore/.criu.cgyard.lraleB/cpuset](106->94)
+(00.217383)      1: mnt:   <--
+(00.217387)      1: mnt:  <--
+(00.217390)      1: mnt:  [./var/lib/docker/aufs](93->64)
+(00.217395)      1: mnt:  <--
+(00.217398)      1: mnt: <--
+(00.217425)      1: mnt: Path `/run/runc/pbxcore/criu-root' resolved to `./run/runc/pbxcore/criu-root' mountpoint
+(00.217471)      1: mnt: Building mountpoints tree
+(00.217479)      1: mnt: 	Building plain mount tree
+(00.217483)      1: mnt: 		Working on 80->48
+(00.217493)      1: mnt: 		Working on 81->80
+(00.217503)      1: mnt: 		Working on 82->80
+(00.217508)      1: mnt: 		Working on 83->82
+(00.217512)      1: mnt: 		Working on 84->82
+(00.217516)      1: mnt: 		Working on 85->80
+(00.217528)      1: mnt: 		Working on 86->85
+(00.217536)      1: mnt: 		Working on 87->86
+(00.217541)      1: mnt: 		Working on 88->86
+(00.217545)      1: mnt: 		Working on 89->86
+(00.217549)      1: mnt: 		Working on 90->86
+(00.217553)      1: mnt: 		Working on 91->86
+(00.217602)      1: mnt: 		Working on 92->86
+(00.217615)      1: mnt: 		Working on 93->86
+(00.217620)      1: mnt: 		Working on 94->86
+(00.217624)      1: mnt: 		Working on 95->86
+(00.217628)      1: mnt: 		Working on 96->86
+(00.217632)      1: mnt: 		Working on 97->86
+(00.217643)      1: mnt: 		Working on 98->86
+(00.217651)      1: mnt: 		Working on 99->86
+(00.217655)      1: mnt: 		Working on 100->80
+(00.217659)      1: mnt: 		Working on 101->80
+(00.217663)      1: mnt: 		Working on 102->82
+(00.217667)      1: mnt: 		Working on 103->82
+(00.217678)      1: mnt: 		Working on 104->82
+(00.217685)      1: mnt: 		Working on 105->82
+(00.217689)      1: mnt: 		Working on 106->82
+(00.217693)      1: mnt: 		Working on 107->82
+(00.217700)      1: mnt: 		Working on 108->102
+(00.217704)      1: mnt: 		Working on 109->106
+(00.217708)      1: mnt: 		Working on 110->104
+(00.217712)      1: mnt: 		Working on 111->107
+(00.217717)      1: mnt: 		Working on 112->103
+(00.217730)      1: mnt: 	Resorting siblings on 80
+(00.217736)      1: mnt: 	Resorting siblings on 81
+(00.217740)      1: mnt: 	Resorting siblings on 82
+(00.217744)      1: mnt: 	Resorting siblings on 83
+(00.217748)      1: mnt: 	Resorting siblings on 84
+(00.217752)      1: mnt: 	Resorting siblings on 102
+(00.217757)      1: mnt: 	Resorting siblings on 108
+(00.217761)      1: mnt: 	Resorting siblings on 103
+(00.217765)      1: mnt: 	Resorting siblings on 112
+(00.217769)      1: mnt: 	Resorting siblings on 104
+(00.217773)      1: mnt: 	Resorting siblings on 110
+(00.217777)      1: mnt: 	Resorting siblings on 105
+(00.217781)      1: mnt: 	Resorting siblings on 106
+(00.217785)      1: mnt: 	Resorting siblings on 109
+(00.217789)      1: mnt: 	Resorting siblings on 107
+(00.217793)      1: mnt: 	Resorting siblings on 111
+(00.217798)      1: mnt: 	Resorting siblings on 85
+(00.217802)      1: mnt: 	Resorting siblings on 86
+(00.217806)      1: mnt: 	Resorting siblings on 87
+(00.217810)      1: mnt: 	Resorting siblings on 88
+(00.217814)      1: mnt: 	Resorting siblings on 89
+(00.217818)      1: mnt: 	Resorting siblings on 90
+(00.217822)      1: mnt: 	Resorting siblings on 91
+(00.217826)      1: mnt: 	Resorting siblings on 92
+(00.217830)      1: mnt: 	Resorting siblings on 93
+(00.217834)      1: mnt: 	Resorting siblings on 94
+(00.217838)      1: mnt: 	Resorting siblings on 95
+(00.217843)      1: mnt: 	Resorting siblings on 96
+(00.217847)      1: mnt: 	Resorting siblings on 97
+(00.217851)      1: mnt: 	Resorting siblings on 98
+(00.217855)      1: mnt: 	Resorting siblings on 99
+(00.217859)      1: mnt: 	Resorting siblings on 100
+(00.217863)      1: mnt: 	Resorting siblings on 101
+(00.217867)      1: mnt: Done:
+(00.217871)      1: mnt: [./](80->48)
+(00.217880)      1: mnt:  [./proc](81->80)
+(00.217889)      1: mnt:  <--
+(00.217897)      1: mnt:  [./etc/resolv.conf](101->80)
+(00.217906)      1: mnt:  <--
+(00.217914)      1: mnt:  [./etc/hosts](100->80)
+(00.217923)      1: mnt:  <--
+(00.217935)      1: mnt:  [./sys](85->80)
+(00.217940)      1: mnt:   [./sys/fs/cgroup](86->85)
+(00.217944)      1: mnt:    [./sys/fs/cgroup/cpuset](87->86)
+(00.217949)      1: mnt:    <--
+(00.217953)      1: mnt:    [./sys/fs/cgroup/systemd](99->86)
+(00.217957)      1: mnt:    <--
+(00.217961)      1: mnt:    [./sys/fs/cgroup/pids](98->86)
+(00.217965)      1: mnt:    <--
+(00.217969)      1: mnt:    [./sys/fs/cgroup/hugetlb](97->86)
+(00.217973)      1: mnt:    <--
+(00.217977)      1: mnt:    [./sys/fs/cgroup/net_prio](96->86)
+(00.217981)      1: mnt:    <--
+(00.217985)      1: mnt:    [./sys/fs/cgroup/perf_event](95->86)
+(00.217989)      1: mnt:    <--
+(00.217993)      1: mnt:    [./sys/fs/cgroup/net_cls](94->86)
+(00.217997)      1: mnt:    <--
+(00.218001)      1: mnt:    [./sys/fs/cgroup/freezer](93->86)
+(00.218005)      1: mnt:    <--
+(00.218009)      1: mnt:    [./sys/fs/cgroup/devices](92->86)
+(00.218013)      1: mnt:    <--
+(00.218017)      1: mnt:    [./sys/fs/cgroup/memory](91->86)
+(00.218022)      1: mnt:    <--
+(00.218025)      1: mnt:    [./sys/fs/cgroup/blkio](90->86)
+(00.218030)      1: mnt:    <--
+(00.218033)      1: mnt:    [./sys/fs/cgroup/cpuacct](89->86)
+(00.218038)      1: mnt:    <--
+(00.218041)      1: mnt:    [./sys/fs/cgroup/cpu](88->86)
+(00.218046)      1: mnt:    <--
+(00.218050)      1: mnt:   <--
+(00.218053)      1: mnt:  <--
+(00.218093)      1: mnt:  [./dev](82->80)
+(00.218104)      1: mnt:   [./dev/pts](83->82)
+(00.218109)      1: mnt:   <--
+(00.218113)      1: mnt:   [./dev/urandom](107->82)
+(00.218117)      1: mnt:    [./dev/urandom](111->107)
+(00.218122)      1: mnt:    <--
+(00.218126)      1: mnt:   <--
+(00.218130)      1: mnt:   [./dev/zero](106->82)
+(00.218135)      1: mnt:    [./dev/zero](109->106)
+(00.218139)      1: mnt:    <--
+(00.218143)      1: mnt:   <--
+(00.218147)      1: mnt:   [./dev/tty](105->82)
+(00.218152)      1: mnt:   <--
+(00.218156)      1: mnt:   [./dev/full](104->82)
+(00.218160)      1: mnt:    [./dev/full](110->104)
+(00.218165)      1: mnt:    <--
+(00.218169)      1: mnt:   <--
+(00.218172)      1: mnt:   [./dev/random](103->82)
+(00.218186)      1: mnt:    [./dev/random](112->103)
+(00.218191)      1: mnt:    <--
+(00.218195)      1: mnt:   <--
+(00.218199)      1: mnt:   [./dev/null](102->82)
+(00.218204)      1: mnt:    [./dev/null](108->102)
+(00.218208)      1: mnt:    <--
+(00.218212)      1: mnt:   <--
+(00.218216)      1: mnt:   [./dev/shm](84->82)
+(00.218221)      1: mnt:   <--
+(00.218225)      1: mnt:  <--
+(00.218228)      1: mnt: <--
+(00.218233)      1: mnt: Inspecting sharing on 80 shared_id 0 master_id 0 (@./)
+(00.218239)      1: mnt: 	The mount 100 is bind for  80 (@./etc/hosts -> @./)
+(00.218245)      1: mnt: 	The mount 101 is bind for  80 (@./etc/resolv.conf -> @./)
+(00.218250)      1: mnt: Inspecting sharing on 81 shared_id 0 master_id 0 (@./proc)
+(00.218255)      1: mnt: Inspecting sharing on 82 shared_id 0 master_id 0 (@./dev)
+(00.218260)      1: mnt: Inspecting sharing on 83 shared_id 0 master_id 0 (@./dev/pts)
+(00.218265)      1: mnt: Inspecting sharing on 84 shared_id 0 master_id 0 (@./dev/shm)
+(00.218270)      1: mnt: Inspecting sharing on 85 shared_id 0 master_id 0 (@./sys)
+(00.218275)      1: mnt: Inspecting sharing on 86 shared_id 0 master_id 0 (@./sys/fs/cgroup)
+(00.218280)      1: mnt: Inspecting sharing on 87 shared_id 0 master_id 0 (@./sys/fs/cgroup/cpuset)
+(00.218286)      1: mnt: Inspecting sharing on 88 shared_id 0 master_id 0 (@./sys/fs/cgroup/cpu)
+(00.218291)      1: mnt: Inspecting sharing on 89 shared_id 0 master_id 0 (@./sys/fs/cgroup/cpuacct)
+(00.218297)      1: mnt: Inspecting sharing on 90 shared_id 0 master_id 0 (@./sys/fs/cgroup/blkio)
+(00.218302)      1: mnt: Inspecting sharing on 91 shared_id 0 master_id 0 (@./sys/fs/cgroup/memory)
+(00.218307)      1: mnt: Inspecting sharing on 92 shared_id 0 master_id 0 (@./sys/fs/cgroup/devices)
+(00.218313)      1: mnt: Inspecting sharing on 93 shared_id 0 master_id 0 (@./sys/fs/cgroup/freezer)
+(00.218318)      1: mnt: Inspecting sharing on 94 shared_id 0 master_id 0 (@./sys/fs/cgroup/net_cls)
+(00.218323)      1: mnt: Inspecting sharing on 95 shared_id 0 master_id 0 (@./sys/fs/cgroup/perf_event)
+(00.218328)      1: mnt: Inspecting sharing on 96 shared_id 0 master_id 0 (@./sys/fs/cgroup/net_prio)
+(00.218333)      1: mnt: Inspecting sharing on 97 shared_id 0 master_id 0 (@./sys/fs/cgroup/hugetlb)
+(00.218338)      1: mnt: Inspecting sharing on 98 shared_id 0 master_id 0 (@./sys/fs/cgroup/pids)
+(00.218343)      1: mnt: Inspecting sharing on 99 shared_id 0 master_id 0 (@./sys/fs/cgroup/systemd)
+(00.218347)      1: mnt: Inspecting sharing on 100 shared_id 0 master_id 0 (@./etc/hosts)
+(00.218352)      1: mnt: Inspecting sharing on 101 shared_id 0 master_id 0 (@./etc/resolv.conf)
+(00.218357)      1: mnt: Inspecting sharing on 102 shared_id 0 master_id 0 (@./dev/null)
+(00.218362)      1: mnt: 	The mount 103 is bind for 102 (@./dev/random -> @./dev/null)
+(00.218367)      1: mnt: 	The mount 104 is bind for 102 (@./dev/full -> @./dev/null)
+(00.218371)      1: mnt: 	The mount 105 is bind for 102 (@./dev/tty -> @./dev/null)
+(00.218376)      1: mnt: 	The mount 106 is bind for 102 (@./dev/zero -> @./dev/null)
+(00.218381)      1: mnt: 	The mount 107 is bind for 102 (@./dev/urandom -> @./dev/null)
+(00.218386)      1: mnt: 	The mount 108 is bind for 102 (@./dev/null -> @./dev/null)
+(00.218395)      1: mnt: 	The mount 109 is bind for 102 (@./dev/zero -> @./dev/null)
+(00.218411)      1: mnt: 	The mount 110 is bind for 102 (@./dev/full -> @./dev/null)
+(00.218421)      1: mnt: 	The mount 111 is bind for 102 (@./dev/urandom -> @./dev/null)
+(00.218443)      1: mnt: 	The mount 112 is bind for 102 (@./dev/random -> @./dev/null)
+(00.218452)      1: mnt: Inspecting sharing on 103 shared_id 0 master_id 0 (@./dev/random)
+(00.218461)      1: mnt: Inspecting sharing on 104 shared_id 0 master_id 0 (@./dev/full)
+(00.218466)      1: mnt: Inspecting sharing on 105 shared_id 0 master_id 0 (@./dev/tty)
+(00.218471)      1: mnt: Inspecting sharing on 106 shared_id 0 master_id 0 (@./dev/zero)
+(00.218475)      1: mnt: Inspecting sharing on 107 shared_id 0 master_id 0 (@./dev/urandom)
+(00.218487)      1: mnt: Inspecting sharing on 108 shared_id 0 master_id 0 (@./dev/null)
+(00.218492)      1: mnt: Inspecting sharing on 109 shared_id 0 master_id 0 (@./dev/zero)
+(00.218497)      1: mnt: Inspecting sharing on 110 shared_id 0 master_id 0 (@./dev/full)
+(00.218502)      1: mnt: Inspecting sharing on 111 shared_id 0 master_id 0 (@./dev/urandom)
+(00.218506)      1: mnt: Inspecting sharing on 112 shared_id 0 master_id 0 (@./dev/random)
+(00.218525)      1: mnt: Start with 80:./
+(00.218543)      1: mnt: 80:./ private 1 shared 0 slave 0
+(00.219271)      1: mnt: Start with 80:./
+(00.219286)      1: mnt: 	Mounting unsupported @./ (0)
+(00.219297)      1: mnt: 	Mounting proc @./proc (0)
+(00.219335)      1: mnt: 81:./proc private 1 shared 0 slave 0
+(00.219349)      1: mnt: 	Mounting unsupported @./etc/resolv.conf (0)
+(00.219355)      1: mnt: 	Bind /etc/resolv.conf to ./etc/resolv.conf
+(00.219406)      1: Error (criu/mount.c:1966): mnt: Can't re-create deleted file /etc/resolv.conf: File exists
+(00.219424)      1: mnt: Start with 80:./
+(00.230433) mnt: Switching to new ns to clean ghosts
+(00.230511) uns: calling exit_usernsd (-1, 1)
+(00.230619) uns: daemon calls 0x459160 (4409, -1, 1)
+(00.230643) uns: `- daemon exits w/ 0
+(00.231042) uns: daemon stopped
+(00.231060) Error (criu/cr-restore.c:1894): Restoring FAILED.
