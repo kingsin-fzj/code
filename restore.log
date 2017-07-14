@@ -1,4 +1,4 @@
-(00.000220) Pagemap is fully functional
+(00.000220) Pagemap is fully functional test the git
 (00.000257) Found task size of 7ffffffff000
 (00.000480) Found fd 0 (id pipe:[17918]) in inherit fd list (caller inherit_fd_resolve_clash)
 (00.000520) Inherit fd 0 moved to 8 to resolve clash
